@@ -1,18 +1,18 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeappsver	24.08.3
+%define		kdeappsver	24.12.0
 %define		kframever	5.94.0
 %define		qtver		5.15.2
 %define		kaname		kshisen
 Summary:	kshisen
 Name:		ka6-%{kaname}
-Version:	24.08.3
+Version:	24.12.0
 Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Applications/Games
 Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	9419338f1cd60d25cb37c96bfce2d35c
+# Source0-md5:	63d3a6036871dec61ec7494e08cc1888
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Core-devel >= %{qtver}
 BuildRequires:	Qt6Gui-devel
